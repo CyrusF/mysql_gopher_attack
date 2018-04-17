@@ -2,6 +2,6 @@
 
 mysql协议实现了登录认证和执行sql
 
-python exploit.py -u test -d '' -P 'select now()' -v -c
+python exploit.py -u root -p "" -d "" -P "select now()" -v -c
 
 可以连接本地数据库，dump packet查看协议细节
